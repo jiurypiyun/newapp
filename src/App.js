@@ -31,7 +31,7 @@ class RealApp extends React.Component {
 				inputvalue:e.target.value
 			}
 		)
-		console.log(this.state);
+		console.log(e.target.value);
 	}
 	render(){
 		return (
