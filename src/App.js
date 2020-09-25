@@ -19,11 +19,13 @@ class RealApp extends React.Component {
 	state = {
 		name: document.getElementById('slm').innerText
 	}
-	additem=(e)=>{
+	additem=(e)=>{for (let index = 0; index < 1000000; index++) {
 		e.preventDefault();
 		let paragraph=document.createElement('p');
 		document.getElementById('task').appendChild(paragraph);
 		paragraph.innerHTML=this.state.inputvalue;
+	}
+
 	}
 	changeHandeler=(e)=>{
 		this.setState(
@@ -41,6 +43,7 @@ class RealApp extends React.Component {
 					<label htmlFor="input1">in ye inpute</label>
 					<input onChange={this.changeHandeler} type="text" name='input1' />
 					<br />
+					<br/>
 					<input onClick={this.additem} type="submit" value="submit form" />
 				</form>
 				<div id="task"></div>
