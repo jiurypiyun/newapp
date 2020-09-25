@@ -42,8 +42,7 @@ class RealApp extends React.Component {
 				<form action="">
 					<label htmlFor="input1">in ye inpute</label>
 					<input onChange={this.changeHandeler} type="text" name='input1' />
-					<br />
-					<br/>
+					<P>nothing</P>
 					<input onClick={this.additem} type="submit" value="submit form" />
 				</form>
 				<div id="task"></div>
