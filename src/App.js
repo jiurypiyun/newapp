@@ -13,7 +13,8 @@ function rand(min, max) {
 // 		</div>
 // 	);
 // }
-console.log(rand(1, 10), rand(5, 10), rand(3, 12), rand(20, 56));
+console.log("slm");
+console.log('in shabih qabli am nist')
 
 class RealApp extends React.Component {
 	state = {
