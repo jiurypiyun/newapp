@@ -6,13 +6,9 @@ import ReactDOM from 'react-dom';
 function rand(min, max) {
 	return Math.floor((Math.random() * (Math.floor(max) - Math.floor(min))) + Math.floor(min));
 }
-// function App() {
-// 	return (
-// 		<div className="App">
-// 			slmmmmm
-// 		</div>
-// 	);
-// }
+//in commenta mohm nabud
+//vali ina vase test mohme 
+//hnuz nmidunm daqgan drm chi kar mikonm 
 console.log("slm");
 console.log('in shabih qabli am nist')
 
